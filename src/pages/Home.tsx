@@ -25,12 +25,16 @@ const Home: React.FC = () => {
                 Discover premium dog toys designed for endless fun, durability, and happy pups everywhere.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-white text-indigo-600 hover:bg-gray-100">
-                  <Link to="/products">Shop All Toys</Link>
-                </Button>
-                <Button variant="secondary" size="lg">
-                  <Link to="/about">Learn More</Link>
-                </Button>
+                <Link to="/products">
+                  <Button size="lg" className="bg-white text-indigo-600 hover:bg-gray-100">
+                    Shop All Toys
+                  </Button>
+                </Link>
+                <Link to="/about">
+                  <Button variant="secondary" size="lg">
+                    Learn More
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
