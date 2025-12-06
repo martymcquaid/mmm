@@ -185,12 +185,16 @@ const About: React.FC = () => {
               Discover why thousands of dogs and their owners trust PawPlay for the best in canine entertainment
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg">
-                <Link to="/products">Shop Our Toys</Link>
-              </Button>
-              <Button variant="secondary" size="lg">
-                <Link to="/contact">Get in Touch</Link>
-              </Button>
+              <Link to="/products">
+                <Button size="lg">
+                  Shop Our Toys
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button variant="secondary" size="lg">
+                  Get in Touch
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
