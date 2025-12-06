@@ -168,9 +168,11 @@ const Home: React.FC = () => {
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Join thousands of happy dogs and their owners. Shop our collection of premium toys today!
             </p>
-            <Button size="lg" className="bg-white text-indigo-600 hover:bg-gray-100">
-              <Link to="/products">Start Shopping</Link>
-            </Button>
+            <Link to="/products">
+              <Button size="lg" className="bg-white text-indigo-600 hover:bg-gray-100">
+                Start Shopping
+              </Button>
+            </Link>
           </div>
         </section>
       </main>
