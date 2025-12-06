@@ -101,9 +101,11 @@ const Home: React.FC = () => {
             </div>
             
             <div className="text-center">
-              <Button size="lg">
-                <Link to="/products">View All Products</Link>
-              </Button>
+              <Link to="/products">
+                <Button size="lg">
+                  View All Products
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
